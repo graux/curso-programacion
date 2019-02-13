@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - EjercicioSwitch",
+            "request": "launch",
+            "mainClass": "com.palmaactiva.programacion.EjercicioSwitch",
+            "projectName": "programacion"
+        }
+    ]
+}
