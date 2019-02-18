@@ -42,6 +42,7 @@ class AppTest {
         int[] diasSemana = { -1, -1, 1, 2, 3, 4, 5, 6, 7, 7, -1 };
         String[] nombresDiasSemana = { null, "blabla", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado",
                 "Domingo", "Fin de Semana", "Marzo" };
+
         int valorEsperado, valorResultado;
         String nombreDia = null;
         for (int index = 0; index < diasSemana.length; index++) {

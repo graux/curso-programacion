@@ -2,6 +2,35 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - EjercicioDNI",
+            "request": "launch",
+            "mainClass": "com.palmaactiva.programacion.EjercicioDNI",
+            "projectName": "programacion",
+            "console": "externalTerminal"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - EjercicioStrings",
+            "request": "launch",
+            "mainClass": "com.palmaactiva.programacion.EjercicioStrings",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - EjercicioBucles",
+            "request": "launch",
+            "mainClass": "com.palmaactiva.programacion.EjercicioBucles",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "com.palmaactiva.programacion.App",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - EjercicioSwitch",
             "request": "launch",
             "mainClass": "com.palmaactiva.programacion.EjercicioSwitch",
