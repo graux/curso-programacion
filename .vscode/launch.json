@@ -2,6 +2,30 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - EjercicioRepeticionesLetra",
+            "request": "launch",
+            "mainClass": "com.palmaactiva.programacion.EjercicioRepeticionesLetra",
+            "projectName": "programacion",
+            "console": "externalTerminal"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - EjercicioEtiquetasEdad",
+            "request": "launch",
+            "mainClass": "com.palmaactiva.programacion.EjercicioEtiquetasEdad",
+            "projectName": "programacion",
+            "console": "externalTerminal"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - EjercicioTablas",
+            "request": "launch",
+            "mainClass": "com.palmaactiva.programacion.EjercicioTablas",
+            "projectName": "programacion",
+            "console": "externalTerminal"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - EjercicioDNI",
             "request": "launch",
             "mainClass": "com.palmaactiva.programacion.EjercicioDNI",
