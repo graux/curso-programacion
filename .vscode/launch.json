@@ -2,6 +2,30 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - EjercicioBusquedaMatriz",
+            "request": "launch",
+            "mainClass": "com.palmaactiva.programacion.EjercicioBusquedaMatriz",
+            "projectName": "programacion",
+            "console": "externalTerminal"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - EjercicioMatriz",
+            "request": "launch",
+            "mainClass": "com.palmaactiva.programacion.EjercicioMatriz",
+            "projectName": "programacion",
+            "console": "externalTerminal"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - EjercicioArrayNumeros",
+            "request": "launch",
+            "mainClass": "com.palmaactiva.programacion.EjercicioArrayNumeros",
+            "projectName": "programacion",
+            "console": "externalTerminal"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - EjercicioRepeticionesLetra",
             "request": "launch",
             "mainClass": "com.palmaactiva.programacion.EjercicioRepeticionesLetra",

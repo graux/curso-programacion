@@ -1,6 +1,6 @@
 package com.palmaactiva.programacion;
 
-public class EjercicioMatriz {
+public class EjercicioBusquedaMatriz {
     public static void main(String[] args) {
         System.out.println("¿Cuántas FILAS va a tener tu Matriz?");
         int numFilas = Utiles.leerInt();
@@ -17,6 +17,11 @@ public class EjercicioMatriz {
             }
         }
         printMatriz(laMatriz);
+
+        // Segunda parte Ejercicio.
+        System.out.println("¿Qué número quieres que busquemos?");
+        int numeroBusqueda = Utiles.leerInt();
+        buscarNumero(laMatriz, numeroBusqueda);
     }
 
     public static void printMatriz(int[][] matriz) {
@@ -26,6 +31,25 @@ public class EjercicioMatriz {
                 System.out.print(String.format("%5d", celda));
             }
             System.out.println();
+        }
+    }
+
+    public static void buscarNumero(int[][] matriz, int numeroBusqueda) {
+        boolean encontrado = false;
+        String textoPosicion = null;
+        for (int indiceFilas = 0; !encontrado && indiceFilas < matriz.length; indiceFilas++) {
+            for (int indiceCols = 0; !encontrado && indiceCols < matriz[indiceFilas].length; indiceCols++) {
+                if (numeroBusqueda == matriz[indiceFilas][indiceCols]) {
+                    encontrado = true;
+                    textoPosicion = (indiceFilas + 1) + "," + (indiceCols + 1);
+                    break;
+                }
+            }
+        }
+        if (encontrado) {
+            System.out.println("El elemento aparece por primera vez en la posición: " + textoPosicion);
+        } else {
+            System.out.println("El número no se ha encontrado en la matriz.");
         }
     }
 }
