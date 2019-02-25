@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - EjercicioCarrito",
+            "request": "launch",
+            "mainClass": "com.palmaactiva.programacion.productos.EjercicioCarrito",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - EjercicioBusquedaMatriz",
             "request": "launch",
             "mainClass": "com.palmaactiva.programacion.EjercicioBusquedaMatriz",
