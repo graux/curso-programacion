@@ -9,6 +9,14 @@
         },
         {
             "type": "java",
+            "name": "CodeLens (Launch) - EjercicioArrayListNumeros",
+            "request": "launch",
+            "mainClass": "com.palmaactiva.programacion.EjercicioArrayListNumeros",
+            "projectName": "programacion",
+            "console": "externalTerminal"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - EjercicioBusquedaMatriz",
             "request": "launch",
             "mainClass": "com.palmaactiva.programacion.EjercicioBusquedaMatriz",
