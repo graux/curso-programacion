@@ -2,6 +2,28 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Flota",
+            "request": "launch",
+            "mainClass": "com.palmaactiva.programacion.flota.Flota",
+            "projectName": "programacion",
+            "console": "externalTerminal"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Serpiente",
+            "request": "launch",
+            "mainClass": "com.palmaactiva.programacion.serpiente.Serpiente",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "com.palmaactiva.programacion.serpiente.App",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - EjercicioCarrito",
             "request": "launch",
             "mainClass": "com.palmaactiva.programacion.productos.EjercicioCarrito",
