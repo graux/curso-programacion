@@ -4,6 +4,14 @@
             "type": "java",
             "name": "CodeLens (Launch) - Flota",
             "request": "launch",
+            "mainClass": "com.palmaactiva.programacion.flota_herencia.Flota",
+            "projectName": "programacion",
+            "console": "externalTerminal"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Flota",
+            "request": "launch",
             "mainClass": "com.palmaactiva.programacion.flota.Flota",
             "projectName": "programacion",
             "console": "externalTerminal"

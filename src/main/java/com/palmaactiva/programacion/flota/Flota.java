@@ -50,7 +50,6 @@ public class Flota {
         sb.append(" |a|b|c|d|e|f|g|h|i|\n");
         sb.append("--------------------\n");
         // Declaramos algunas variables para ver el estado de cada celda
-        boolean hayBarco = false;
         boolean hayImpacto = false;
         boolean hayAgua = false;
         // Recorremos todas las filas
@@ -62,7 +61,6 @@ public class Flota {
                 // Empezamos con una barra
                 sb.append("|");
                 // Re-iniciamos al valor por defecto las variables
-                hayBarco = false;
                 hayAgua = false;
                 hayImpacto = false;
                 // Comprobamos todas las posiciones guardadas de disparos al agua
@@ -80,7 +78,6 @@ public class Flota {
                         // Compruebo si el barco está en la celda actual (del bucle)
                         if (barco.sobrePosicion(indiceFila, indiceColumna)) {
                             // Estamos en un barco
-                            hayBarco = true;
                             // Le pedimos el estado del la celda/posición al barco
                             hayImpacto = barco.posicionHundida(indiceFila, indiceColumna);
                             break;
