@@ -4,6 +4,13 @@
             "type": "java",
             "name": "CodeLens (Launch) - App",
             "request": "launch",
+            "mainClass": "com.palmaactiva.programacion.juego_vida.App",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
             "mainClass": "com.palmaactiva.programacion.figuras.App",
             "projectName": "programacion"
         },
