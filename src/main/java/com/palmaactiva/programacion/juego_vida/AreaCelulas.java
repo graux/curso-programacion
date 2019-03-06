@@ -46,8 +46,21 @@ public class AreaCelulas extends JComponent implements ActionListener {
     }
 
     @Override
+    public void actionPerformed(ActionEvent e) {
+        this.contadorCiclos++;
+        System.out.println("Nuevo ciclo: " + this.contadorCiclos);
+        // TODO Aplicar el algoritmo del juego de la vida a las células
+    }
+
+    @Override
     public void paint(Graphics g) {
         super.paint(g);
+        this.pintarRegilla(g);
+        
+        // TODO pintar cada célula
+    }
+
+    private void pintarRegilla(Graphics g) {
         int ancho = this.getWidth();
         int alto = this.getHeight();
 
@@ -64,14 +77,5 @@ public class AreaCelulas extends JComponent implements ActionListener {
         for (float posY = altoCelula; posY < alto; posY += altoCelula) {
             g.drawLine(0, Math.round(posY), ancho, Math.round(posY));
         }
-
-        // TODO pintar cada célula
-    }
-
-    @Override
-    public void actionPerformed(ActionEvent e) {
-        this.contadorCiclos++;
-        System.out.println("Nuevo ciclo: " + this.contadorCiclos);
-        // TODO Aplicar el algoritmo del juego de la vida a las células
     }
 }
