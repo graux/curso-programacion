@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "com.palmaactiva.programacion.figuras.App",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Flota",
             "request": "launch",
             "mainClass": "com.palmaactiva.programacion.flota_herencia.Flota",
