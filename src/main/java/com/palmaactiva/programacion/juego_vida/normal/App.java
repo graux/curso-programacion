@@ -1,8 +1,6 @@
-package com.palmaactiva.programacion.juego_vida;
+package com.palmaactiva.programacion.juego_vida.normal;
 
 import java.awt.Color;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
 
 import javax.swing.JFrame;
 
@@ -13,9 +11,9 @@ public class App extends JFrame {
     private App() {
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
         this.setSize(800, 600);
-        this.setTitle("Juego de la Vida Java");
+        this.setTitle("Juego de la Vida Java - NORMAL");
         this.getContentPane().setBackground(Color.WHITE);
-        this.areaCelulas = new AreaCelulas(50, 40);
+        this.areaCelulas = new AreaCelulas(80, 60);
         this.add(areaCelulas);
 
     }
@@ -23,6 +21,5 @@ public class App extends JFrame {
     public static void main(String[] args) {
         App miApp = new App();
         miApp.setVisible(true);
-        miApp.areaCelulas.empezarJuego();
     }
 }

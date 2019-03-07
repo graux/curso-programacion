@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "com.palmaactiva.programacion.juego_vida.avanzado_lista.App",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "com.palmaactiva.programacion.juego_vida.avanzado.App",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "com.palmaactiva.programacion.juego_vida.normal.App",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "com.palmaactiva.programacion.juego_vida.simple.App",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - EjercicioExcepciones",
             "request": "launch",
             "mainClass": "com.palmaactiva.programacion.EjercicioExcepciones",
