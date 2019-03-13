@@ -4,6 +4,14 @@
             "type": "java",
             "name": "CodeLens (Launch) - App",
             "request": "launch",
+            "mainClass": "com.palmaactiva.programacion.personas_dni.App",
+            "projectName": "programacion",
+            "console": "externalTerminal"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
             "mainClass": "com.palmaactiva.programacion.juego_vida.avanzado_lista.App",
             "projectName": "programacion"
         },
