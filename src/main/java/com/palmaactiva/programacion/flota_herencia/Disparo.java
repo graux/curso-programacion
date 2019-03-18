@@ -8,6 +8,10 @@ public class Disparo extends Posicion {
         super(fila, columna);
     }
 
+    public Disparo(Posicion pos) {
+        super(pos.fila, pos.columna);
+    }
+
     // Método estático para crear nuevos disparos a partir de texto
     public static Disparo parseDisparo(String posicionTexto) throws NumberFormatException, DisparoFormatException {
         int fila;
@@ -20,12 +24,14 @@ public class Disparo extends Posicion {
 
                 fila = Integer.parseInt(Character.toString(numero)) - 1;
                 if (fila >= 0 && fila < Flota.NUM_FILAS) {
-                    // Si todo va bien, creamos un nuevo disparo con el constructor privado y la fila/columna procesadas.
+                    // Si todo va bien, creamos un nuevo disparo con el constructor privado y la
+                    // fila/columna procesadas.
                     return new Disparo(fila, columna);
                 }
             }
         }
-        // Si hemos llegado hasta aquí es que ha habido algún error de formato, lanzamos excepción.
+        // Si hemos llegado hasta aquí es que ha habido algún error de formato, lanzamos
+        // excepción.
         throw new DisparoFormatException(posicionTexto);
     }
 

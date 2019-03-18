@@ -109,7 +109,7 @@ public class Barco implements Posicionable {
         }
     }
 
-    private Celda getCeldaPosicion(Posicion pos) {
+    protected Celda getCeldaPosicion(Posicion pos) {
         // Comprobamos para cada una de las celdas del barco
         for (Celda miCelda : this.celdas) {
             // Si la celda está en la posición de los parámetros
