@@ -4,6 +4,22 @@
             "type": "java",
             "name": "CodeLens (Launch) - App",
             "request": "launch",
+            "mainClass": "com.palmaactiva.programacion.ejercicio_diccionario_json.App",
+            "projectName": "programacion",
+            "console": "externalTerminal"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "com.palmaactiva.programacion.personas_dni_departamentos.App",
+            "projectName": "programacion",
+            "console": "externalTerminal"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
             "mainClass": "com.palmaactiva.programacion.personas_dni_json.App",
             "projectName": "programacion",
             "console": "externalTerminal"
