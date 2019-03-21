@@ -4,6 +4,13 @@
             "type": "java",
             "name": "CodeLens (Launch) - App",
             "request": "launch",
+            "mainClass": "com.palmaactiva.programacion.ejercicio_eventos_teclado.App",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
             "mainClass": "com.palmaactiva.programacion.ejercicio_diccionario_json.App",
             "projectName": "programacion",
             "console": "externalTerminal"
